@@ -1,0 +1,111 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: tan;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: darkgreen;
+    position: fixed;
+    top: 0;
+    height: 70px;
+}
+
+.hello{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   font-size: larger;
+}
+
+.navbar{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 60%;
+   height: 100%; 
+}
+
+.navbar-item{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+.nav-link{
+    color: antiquewhite;
+}
+.row{
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+h3{
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.caption{
+    color: white;
+    background-color: darkgreen;
+}
+
+.footnotes{
+    background-color: darkgreen;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map{
+    width: 250px;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+
+.footerinfo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social_media{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footerheading{
+    font-size: 2em;
+}
+.copy{
+    text-align: center;
+}
